@@ -481,6 +481,7 @@ h1 {
     margin-top: 100px;
     gap: 40px;
     text-transform: uppercase;
+    width: 80%;
 }
 
 
@@ -508,8 +509,7 @@ text-align: center;
     justify-content: center;
     align-items: center;
     gap: 40px;
-    /* width: 420px;
-    height: 450px; */
+
 }
 
 
@@ -806,6 +806,45 @@ footer span {
         animation: appear linear;
         animation-timeline: view();
         animation-range: entry -40vh cover 35%;
+    }
+
+
+
+
+
+    /*^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
+
+
+    #sponsor h1{
+       
+       font-size: 30px;
+    
+    }
+    
+    #sponsor h2{
+       
+       font-size: 20px;
+
+    }
+    
+    #sponsor img{
+        border-radius: 5px;
+        width: 100px;
+        height: auto;
+    }
+    
+    .title_sponsor{
+
+        gap: 40px;
+
+    }
+    
+    
+    
+    .split{
+
+        gap: 60px;
+        margin-top: 20px;
     }
 
 

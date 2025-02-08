@@ -509,6 +509,7 @@ text-align: center;
     justify-content: center;
     align-items: center;
     gap: 40px;
+    width: 420px;
 
 }
 
@@ -817,7 +818,7 @@ footer span {
 
     #sponsor h1{
        
-       font-size: 30px;
+       font-size: 25px;
     
     }
     
@@ -835,15 +836,15 @@ footer span {
     
     .title_sponsor{
 
-        gap: 40px;
-
+        gap: 10px;
+        width: 190px;
     }
     
     
     
     .split{
 
-        gap: 60px;
+        gap: 30px;
         margin-top: 20px;
     }
 

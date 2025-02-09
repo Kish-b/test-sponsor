@@ -478,8 +478,8 @@ h1 {
     align-items: center;
 
     margin: 0 auto;
-    margin-top: 100px;
-    gap: 40px;
+    margin-top: 150px;
+    gap: 60px;
     text-transform: uppercase;
     width: 80%;
 }
@@ -487,13 +487,13 @@ h1 {
 
 .sponsor h1{
     color: #F87711;
-   font-size: 60px;
+   font-size: 80px;
 
 }
 
 .sponsor h2{
     color: #ffffff;
-   font-size: 40px;
+   font-size: 50px;
 text-align: center;
 }
 
@@ -501,8 +501,10 @@ text-align: center;
     border-radius: 12px;
     width: 420px;
     height: 280px;
-    object-fit: cover;
+    /* object-fit: cover; */
     /* border: white 2px solid; */
+    outline: 1px solid rgb(255, 255, 255); 
+    outline-offset: 1px;
 }
 
 .title_sponsor{
@@ -519,14 +521,30 @@ text-align: center;
 
 .split{
     display: flex;
- 
+
     justify-content: center;
     align-items: flex-start;
     gap: 180px;
-    margin-top: 70px;
+    margin-top: 130px;
+}
+
+.event_sponsor{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin-top: 100px;
 }
 
 
+.event_sponsor_images{
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    gap: 180px;
+}
 
 /* 88888888888888888888888888888888888888888888888888888888888888888888888 */
 
@@ -818,7 +836,12 @@ footer span {
 
     /*^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
 
-
+    .sponsor{
+   
+    
+        margin-top: 0px;
+    
+    }
     .sponsor h1{
        
        font-size: 30px;
@@ -849,14 +872,28 @@ footer span {
     
     
     .split{
-
-        gap: 15px;
-        margin-top: 20px;
+        gap: 0px;
+        margin-top: 30px;
     }
 
 .split h2{
     font-size: 16px;
 }
+
+
+.event_sponsor{
+
+    gap: 10px;
+    margin-top: 30px;
+}
+
+
+.event_sponsor_images{
+
+    gap: 55px;
+}
+
+
     /*^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
 
 
